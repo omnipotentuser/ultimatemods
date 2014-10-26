@@ -3,16 +3,26 @@ html
   head
     link(rel="stylesheet", href="/css/style.css")
     link(href='http://fonts.googleapis.com/css?family=Exo:400,900', rel='stylesheet', type='text/css')
+    script(type='text/javascript', src='http://code.jquery.com/jquery-1.10.1.min.js')
+    script(type='text/javascript', src='http://code.jquery.com/jquery-migrate-1.2.1.min.js')
   body
     #um-header.um-full
       img#um-header-img
       #um-header-title
         img#um-header-title-img(src="images/bluprint-font1.png")
     #um-body
-      ul.um-list-container
-        li.um-list
-          img#img1.um-showcase-img(src="images/exquisite2.jpg", width="100%")
+      img.um-img-slider(src="images/exquisite2.jpg", style="width: 60%;")
+      img.um-img-slider(src="images/elite1.jpg", style="width: 60%;")
       footer.um-full
         img#um-footer-img
         label.footer-label 
           a(href="mailto:contact@ultimatemods.net") contact@ultimatemods.net
+        #social
+          a(href="https://www.facebook.com/pages/Ultimate-Mods/324978974341975", alt="Ultimatemods Facebook")
+            img.img_social(src="images/socialmedia/facebook-icon.png")
+          a(href="https://plus.google.com/u/0/b/112243885143235338052/112243885143235338052/about", alt="Ultimatemods Google Plus")
+            img.img_social(src="images/socialmedia/Google-plus-grey-icon.png")
+          a(href="https://www.youtube.com/channel/UCbVh_QsQVb_y4L6GGz3gMFQ", alt="Ultimatemods Youtube")
+            img.img_social(src="images/socialmedia/youtube-icon.png")
+          a(href="https://twitter.com/Ultimate_Mods", alt="Ultimatemods Twitter")
+            img.img_social(src="images/socialmedia/twitter-icon.png")
