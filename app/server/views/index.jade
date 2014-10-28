@@ -2,17 +2,58 @@ doctype html
 html
   head
     link(rel="stylesheet", href="/css/style.css")
+    link(rel="stylesheet", href="/vendors/PgwSlideshow/pgwslideshow.css")
     link(href='http://fonts.googleapis.com/css?family=Exo:400,900', rel='stylesheet', type='text/css')
     script(type='text/javascript', src='http://code.jquery.com/jquery-1.10.1.min.js')
-    script(type='text/javascript', src='http://code.jquery.com/jquery-migrate-1.2.1.min.js')
   body
     #um-header.um-full
       img#um-header-img
       #um-header-title
-        img#um-header-title-img(src="images/bluprint-font1.png")
+        img#um-header-title-img(src="images/bpcrop.png")
     #um-body
-      img.um-img-slider(src="images/exquisite2.jpg", style="width: 60%;")
-      img.um-img-slider(src="images/elite1.jpg", style="width: 60%;")
+      ul.pgwSlideshow
+        li
+          img(src="images/NWware Exquisite 1.jpg", alt="Exquisite version 2", data-description="After popular demand, the Exquisite is back with breathing fire stained glass!")
+        li
+          img(src="images/NWware Exquisite 2.jpg", alt="Exquisite version 2")
+        li
+          img(src="images/NWware Exquisite 3.jpg", alt="Exquisite version 2")
+        li
+          img(src="images/NWware Exquisite 4.jpg", alt="Exquisite version 2")
+        li
+          img(src="images/NWware Elite 1.jpg", alt="Elite Bloodwood Wenge", data-description="African wood, very hard and resistant to heat!!")
+        li
+          img(src="images/NWware Elite 2.jpg", alt="Elite Bloodwood Wenge")
+        li
+          img(src="images/Dragon Blood PC.jpg", alt="Dragon Blood Exquisite", data-description="The original Exquisite, winner of PDXLAN 2010, CPU Magazine front cover")
+        li
+          img(src="images/Dragon Blood PC 2.jpg", alt="Dragon Blood Exquisite")
+        li
+          img(src="images/Dragon Blood PC 3.jpg", alt="Dragon Blood Exquisite")
+        li
+          img(src="images/DragonBloodPC3_2.jpg", alt="Dragon Blood Exquisite")
+        li
+          img(src="images/Dragon Blood PC 4.jpg", alt="Dragon Blood Exquisite")
+        li
+          img(src="images/Geforce LAN Case 1.jpg", data-description="Nvidia's GeForce LAN case to roll back with your LAN friends!" alt="nVidia GeForce LAN case")
+        li
+          img(src="images/Geforce LAN Case 2.jpg")
+        li
+          img(src="images/Geforce LAN Case 3.jpg")
+        li
+          img(src="images/Military LAN BOX 1.jpg", alt="Lian Li Military", data-description="The Military Case - T O P G U N!!")
+        li
+          img(src="images/Military LAN BOX 2.jpg")
+        li
+          img(src="images/Military LAN BOX 3.jpg")
+        li
+          img(src="images/Military LAN BOX 4.jpg")
+        li
+          img(src="images/Cosmos SLI case 1.jpg")
+        li
+          img(src="images/Cosmos SLI case 2.jpg")
+        li
+          img(src="images/Cosmos SLI case 3.jpg")
       footer.um-full
         img#um-footer-img
         label.footer-label 
@@ -26,3 +67,5 @@ html
             img.img_social(src="images/socialmedia/youtube-icon.png")
           a(href="https://twitter.com/Ultimate_Mods", alt="Ultimatemods Twitter")
             img.img_social(src="images/socialmedia/twitter-icon.png")
+    script(type='text/javascript', src='vendors/PgwSlideshow/pgwslideshow.js')
+    script(type='text/javascript', src='js/ultimatemods.js')
